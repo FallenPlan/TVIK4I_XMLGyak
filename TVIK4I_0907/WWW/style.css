@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(55, 167, 204);
+}
+
+.pic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.menu {
+    text-align: center;
+    padding: 5px 0px;
+}
+
+table {
+    margin-right: 120px;
+}
+
+th {
+    text-align: center;
+    padding: 0px 130px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.text {
+    color: white;
+    margin-left: 40px;
+}
+
+.kep img{
+    float: right;
+    margin-right: 150px;
+}
