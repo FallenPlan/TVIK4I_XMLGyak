@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<orarend>
+    <ora id="fgh" tipus="elm">
+        <targy id="fgh" nev="Szamitogep halozatok uze"/>
+        <idopont>
+            <nap id="fgh" nev="hetfo">
+            <tol id="fgh" tol="8:00">
+            <ig id="fgh" ig="12:00">
+        </idopont>
+        <helyszin id="fgh" nev="In/202 II em. 202">
+        <oktato id="fgh" nev="Dr. Kovacs Szilveszter">
+        <szak id="fgh" nev="BI">
+    </ora>
+</orarend>

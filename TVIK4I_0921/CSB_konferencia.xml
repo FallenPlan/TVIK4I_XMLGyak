@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konferencia>
+    <cim>
+    </cim>
+    <hallgatok id="weq_3er" kar="geik">
+        <hallgato id="fgd_3er" szak="BI">
+            <nev id="vbc_3er" nev="sanyi"/>
+            <lakcim id="ghf_3er"/>
+        </hallgato>
+    </hallgatok>
+    <helyszín id="klj_3er"/>
+    <eloado>
+        <nev id="opi_3er" nev="309"/>
+        <adoszam id="tzr_3er" adoszam="3432dw3"/>
+        <lakcim id="uzi_3er" lakcim="pottyos utca"/>
+    </eloado>
+    <datum id="etr_3er">
+    </datum>
+</konferencia>
