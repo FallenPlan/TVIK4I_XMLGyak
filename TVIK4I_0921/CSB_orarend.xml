@@ -2,14 +2,91 @@
 
 <orarend>
     <ora id="fgh" tipus="elm">
-        <targy id="fgh" nev="Szamitogep halozatok uze"/>
+        <targy>Szamitogep halozatok uze</targy>
         <idopont>
-            <nap id="fgh" nev="hetfo">
-            <tol id="fgh" tol="8:00">
-            <ig id="fgh" ig="12:00">
+            <nap>Hetfo</nap>
+            <tol>8:00</tol>
+            <ig>12:00</ig>
         </idopont>
-        <helyszin id="fgh" nev="In/202 II em. 202">
-        <oktato id="fgh" nev="Dr. Kovacs Szilveszter">
-        <szak id="fgh" nev="BI">
+        <helyszin>In/202 II em. 202</helyszin>
+        <oktato>Dr. Kovacs Szilveszter</oktato>
+        <szak>BI</szak>
+    </ora>
+    <ora id="fgd" tipus="elm">
+        <targy>WEB-es alkalmazasok Java</targy>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>In/101 I em. 101</helyszin>
+        <oktato>Dr. Krizsán Zoltán</oktato>
+        <szak>BI</szak>
+    </ora>
+    <ora id="fgr" tipus="elm">
+        <targy>Kínai</targy>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>16:00</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>A1 / 119</helyszin>
+        <oktato>Liu Gou Ian</oktato>
+        <szak>BI</szak>
+    </ora>
+    <ora id="fgq" tipus="gyak">
+        <targy>WEB-es alkalmazasok Java</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>In/101 I em. 101</helyszin>
+        <oktato>Dr. Krizsán Zoltán</oktato>
+        <szak>BI</szak>
+    </ora>
+    <ora id="fgx" tipus="elm">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>A1 I.</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>BI</szak>
+    </ora>
+    <ora id="fgo" tipus="gyak">
+        <targy>WEB-es alkalmazasok Java</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>In/103 I em. 103</helyszin>
+        <oktato>Dr. Krizsán Zoltán</oktato>
+        <szak>BI</szak>
+    </ora>
+    <ora id="fgk" tipus="elm">
+        <targy>Szoftvertechnológia</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>8:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>XXX A1 305</helyszin>
+        <oktato>Dr. Mileff Péter</oktato>
+        <szak>BI</szak>
+    </ora>
+    <ora id="fgp" tipus="elm">
+        <targy>Kínai</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>16:00</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>A1 / 119</helyszin>
+        <oktato>Liu Gou Ian</oktato>
+        <szak>BI</szak>
     </ora>
 </orarend>
