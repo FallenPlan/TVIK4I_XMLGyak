@@ -1,0 +1,8 @@
+<!DOCTYPE note
+[
+<!ELEMENT konyvek (konyv*)>
+<!ELEMENT konyv (cim)>
+<!ELEMENT konyv (kiadasiEv)>
+<!ELEMENT konyv (kiado)>
+<!ELEMENT konyv (szerzo+)>
+]>
