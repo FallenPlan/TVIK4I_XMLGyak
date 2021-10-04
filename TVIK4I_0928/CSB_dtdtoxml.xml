@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE ER SYSTEM "CSB_ertodtd.dtd">
+
+<ER>
+    <entry>
+        A
+        <key-attribute>a</key-attribute>
+        <multivalued-composite-attribute>
+            b
+            <attribute>x</attribute>
+            <attribute>y</attribute>
+        </multivalued-composite-attribute>
+            <composite-attribute>
+                c
+                <attribute>d</attribute>
+                <attribute>e</attribute>
+            </composite-attribute>
+    </entry>
+        <attribute>c</attribute>
+    <entry>
+        B
+        <key-attribute>a</key-attribute>
+        <multivalued-attribute>
+            b
+            <attribute>x</attribute>
+            <attribute>y</attribute>
+        </multivalued-attribute>
+    </entry>
+    <entry>
+        C
+        <key-attribute>a</key-attribute>
+        <attribute>b</attribute>
+    </entry>
+</ER>

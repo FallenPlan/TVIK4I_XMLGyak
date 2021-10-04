@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE DOLGOZO SYSTEM "CSB_adatbazis.dtd">
+
+<DOLGOZO>
+    <kod number="3">primary key</kod>
+    <nev char="20"/>
+    <fizetes number="8"/>
+</DOLGOZO>
+
+

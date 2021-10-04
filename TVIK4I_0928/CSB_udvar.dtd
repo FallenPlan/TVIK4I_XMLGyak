@@ -1,0 +1,19 @@
+<!ELEMENT udvar (gazda|kutya|kakas|tyuk|roka|diszno)*>
+<!ELEMENT gazda (#PCDATA)>
+<!ATTLIST gazda
+        nev CDATA #REQUIRED>
+<!ELEMENT kutya (#PCDATA)>
+<!ATTLIST kutya
+        nev CDATA #REQUIRED>
+<!ELEMENT kakas (#PCDATA)>
+<!ATTLIST kakas
+        id CDATA #REQUIRED>
+<!ELEMENT tyuk (#PCDATA)>
+<!ATTLIST tyuk
+        ferj CDATA #REQUIRED>
+<!ELEMENT roka (#PCDATA)>
+<!ATTLIST roka
+        id CDATA #REQUIRED>
+<!ELEMENT diszno (#PCDATA)>
+<!ATTLIST diszno
+        nev CDATA #REQUIRED>

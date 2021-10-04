@@ -1,0 +1,13 @@
+<!ELEMENT adatbazis (DOLGOZO)*>
+<!ELEMENT DOLGOZO (#PCDATA)>
+<!ELEMENT DOLGOZO (kod|nev|fizetes)*>
+<!ELEMENT kod (#PCDATA)>
+<!ATTLIST kod
+        number CDATA #REQUIRED>
+<!ELEMENT nev (#PCDATA)>
+<!ATTLIST nev
+        char CDATA #REQUIRED>
+<!ELEMENT fizetes (#PCDATA)>
+<!ATTLIST fizetes
+        number CDATA #REQUIRED>
+        
