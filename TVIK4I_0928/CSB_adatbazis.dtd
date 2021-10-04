@@ -1,5 +1,3 @@
-<!ELEMENT adatbazis (DOLGOZO)*>
-<!ELEMENT DOLGOZO (#PCDATA)>
 <!ELEMENT DOLGOZO (kod|nev|fizetes)*>
 <!ELEMENT kod (#PCDATA)>
 <!ATTLIST kod
