@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE note SYSTEM "CSB_konyv.dtd">
-<note>
-    <konyvek>
+
+<!DOCTYPE konyvek SYSTEM "CSB_konyv.dtd">
+
+<konyvek>
         <konyv id="asd_4gh" tema="informatika">
             <cim>Az SQL példákon keresztül</cim>
             <kiadasiEv>2019</kiadasiEv>
             <kiado>Jedlik Oktatási Stúdió Bt.</kiado>
             <szerzo>Bódy Bence</szerzo>
+            <abstract>XML</abstract>
         </konyv>
         <konyv id="wer_4gh" tema="informatika">
             <cim>Készíts te is játékprogramot! - Scratch nyelven</cim>
             <kiadasiEv>2018</kiadasiEv>
             <kiado>Saxum Kiadó</kiado>
             <szerzo>Jakab Zsolt</szerzo>
+            <abstract>XML</abstract>
         </konyv>
         <konyv id="tzu_4gh" tema="informatika">
             <cim>Nyomtatók programozása</cim>
             <kiadasiEv>2020</kiadasiEv>
             <kiado>Fehér Krisztián Dezső</kiado>
             <szerzo>Fehér Krisztián</szerzo>
+            <abstract>XML</abstract>
         </konyv>
     </konyvek>
-</note>
