@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="orarend">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="ora" type="ora_type" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ora_type">
+        <xs:sequence>
+            <xs:element name="targy" type="xs:string"/>
+            <xs:element name="idopont" type="idopont_type"/>
+            <xs:element name="helyszin" type="xs:string"/>
+            <xs:element name="oktato" type="xs:string"/>
+            <xs:element name="szak" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required"/>
+        <xs:attribute name="type" type="oraTipus" default="elm"/>
+    </xs:complexType>
+
+    <xs:simpleType name="oraTipus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="elm"/>
+            <xs:enumeration value="gyak"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="idopont_type">
+        <xs:sequence>
+            <xs:element name="nap" type="nap_type"/>
+            <xs:element name="tol" type="idoOra_type"/>
+            <xs:element name="ig" type="idoOra_type"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="nap_type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="hetfo"/>
+            <xs:enumeration value="kedd"/>
+            <xs:enumeration value="szerda"/>
+            <xs:enumeration value="csutortok"/>
+            <xs:enumeration value="pentek"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="idoOra_type">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="8"/>
+            <xs:maxInclusive value="18"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<nevjegykartyak>
+    <nevjegykartya>
+        <nev>Csomor Bence</nev>
+        <cim>
+            <iranyitoszam>1287</iranyitoszam>
+            <varos>Budapest</varos>
+            <utca>Potyos</utca>
+            <hazszam>69</hazszam>
+        </cim>
+        <telefonszam>20/123-4567</telefonszam>
+        <weblap>https://index.hu</weblap>
+    </nevjegykartya>
+
+    <nevjegykartya>
+        <nev>Kiss Lajos</nev>
+        <cim>
+            <iranyitoszam>1458</iranyitoszam>
+            <varos>Budapest</varos>
+            <utca>Hunyadi</utca>
+            <hazszam>88</hazszam>
+        </cim>
+        <telefonszam>70/234-5667</telefonszam>
+        <weblap>https://indeks.hu</weblap>
+    </nevjegykartya>
+</nevjegykartyak>

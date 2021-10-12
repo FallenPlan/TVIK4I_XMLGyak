@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="nevjegykartyak">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nevjegykartya" type="nevjegykartyaType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="nevjegykartyaType">
+    <xs:sequence>
+      <xs:element name="nev" type="xs:string"/>
+      <xs:element name="cim" type="cimType"/>
+      <xs:element name="telefonszam" type="xs:integer"/>
+      <xs:element name="weblap" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="cimType">
+    <xs:sequence>
+      <xs:element name="iranyitoszam" type="xs:integer"/>
+      <xs:element name="varos" type="xs:string"/>
+      <xs:element name="utca" type="xs:string"/>
+      <xs:element name="hazszam" type="xs:integer"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
