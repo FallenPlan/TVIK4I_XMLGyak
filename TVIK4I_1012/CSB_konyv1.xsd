@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="konyvek">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="konyv" type="konyvType"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+  <xs:complexType name="konyvType">
+    <xs:sequence>
+      <xs:element name="cim" type="xs:string"/>
+      <xs:element name="szerzo" type="xs:string"/>
+      <xs:element name="szereplo" type="szereploType"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id"/>
+    <xs:attribute type="xs:string" name="tema"/>
+  </xs:complexType>
+  <xs:complexType name="szereploType">
+    <xs:sequence>
+      <xs:element name="nev" type="xs:string"/>
+      <xs:element name="baratja" type="xs:string"/>
+      <xs:element name="szuletett" type="xs:string"/>
+      <xs:element name="jellemzes" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="isbnType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="num"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="konyvekType">
+    <xs:sequence>
+      <xs:element type="konyvType" name="konyv"/>
+      <xs:element type="isbnType" name="isbn"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

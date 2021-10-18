@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konyvek>
+    <konyv id="asdf_ko" tema="fantasy">
+        <cim>Harry Potter</cim>
+        <szerzo>J.K.Rowling</szerzo>
+        <szereplo>
+            <nev>Harry Potter</nev>
+            <baratja>Ron</baratja>
+            <szuletett>1980. július 31.</szuletett>
+            <jellemzes>Bátor, vakmerő, barátságos, tehetséges</jellemzes>
+        </szereplo>
+        <szereplo>
+            <nev>Ron Weasley</nev>
+            <szuletett>1980. március 1.</szuletett>
+            <jellemzes>Ügyetlen, barátságos, segítőkész, vicces</jellemzes>
+        </szereplo>
+    </konyv>
+    <isbn num="9780747532743"/>
+</konyvek>
