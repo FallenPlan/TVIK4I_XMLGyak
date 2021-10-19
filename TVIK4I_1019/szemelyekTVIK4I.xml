@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE szemelyek SYSTEM "C:\Users\Bence\Desktop\XML\TVIK4I_1019\szemelyekTVIK4I.dtd">
+
+<szemelyek>
+    <szemely id="asd12">
+        <nev>Csomor Bence</nev>
+        <kor>23</kor>
+        <varos>Budapest</varos>
+    </szemely>
+    <szemely id="asd13">
+        <nev>Kiss Pista</nev>
+        <kor>34</kor>
+        <varos>Miskolc</varos>
+    </szemely>
+    <szemely id="asd14">
+        <nev>Kovács László</nev>
+        <kor>53</kor>
+        <varos>Bugyi</varos>
+    </szemely>
+    <szemely id="asd14">
+        <nev>Rácz Róbert</nev>
+        <kor>15</kor>
+        <varos>Debrecen</varos>
+    </szemely>
+</szemelyek>
