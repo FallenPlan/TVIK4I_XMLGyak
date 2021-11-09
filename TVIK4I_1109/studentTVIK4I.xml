@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<class>
+    <student id="01">
+        <keresztnev>Bence</keresztnev>
+        <vezeteknev>Csomor</vezeteknev>
+        <becenev>Bence</becenev>
+        <kor>23</kor>
+    </student>
+    <student id="02">
+        <keresztnev>Pista</keresztnev>
+        <vezeteknev>Kiss</vezeteknev>
+        <becenev>Pistacska</becenev>
+        <kor>69</kor>
+    </student>
+    <student id="03">
+        <keresztnev>Emma</keresztnev>
+        <vezeteknev>Dil</vezeteknev>
+        <becenev>dilemma</becenev>
+        <kor>17</kor>
+    </student>
+</class>
