@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rendeles>
+    <vasarlo id="SzISz">
+        <lakcim>
+            <utca></utca>
+            <hazszam></hazszam>
+            <varos></varos>
+            <iranyitoszam></iranyitoszam>
+        </lakcim>
+        <bankszanlaSzam></bankszanlaSzam>
+        <nev></nev>
+    </vasarlo>
+    <onlineAruhaz id="OID">
+        <nev></nev>
+        <weboldal></weboldal>
+        <tulaj></tulaj>
+    </onlineAruhaz>
+    <szallitmanyozo id="SzID">
+        <nev></nev>
+        <tulaj></tulaj>
+        <sofor></sofor>
+    </szallitmanyozo>
+    <raktar id="RID">
+        <cim>
+            <varos></varos>
+            <utca></utca>
+            <iranyitoszam></iranyitoszam>
+        </cim>
+        <uzemelteto></uzemelteto>
+    </raktar>
+    <termekek id="TID">
+        <afa></afa>
+        <tipus></tipus>
+        <ar></ar>
+        <kiadasiEv></kiadasiEv>
+    </termekek>
+</rendeles>
