@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified">
+
+    <xs:element name="rendeles">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vasarlo" type="vasarloType"/>
+                <xs:element name="onlineAruhaz" type="onlineAruhazType"/>
+                <xs:element name="raktar" type="raktarType"/>
+                <xs:element name="termekek" type="termekekType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+        <xs:complexType name="vasarloType">
+            <xs:sequence>
+                <xs:element name="lakcim" type="lakcimType"/>
+                <xs:element name="bankszanlaSzam" type="xs:integer"/>
+                <xs:element name="nev" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id"/>
+        </xs:complexType>
+        <xs:complexType name="lakcimType">
+            <xs:sequence>
+                <xs:element name="utca" type="xs:string"/>
+                <xs:element name="hazszam" type="xs:integer"/>
+                <xs:element name="varos" type="xs:string"/>
+                <xs:element name="iranyitoszam" type="xs:integer"/>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="onlineAruhazType">
+            <xs:sequence>
+                <xs:element name="nev" type="xs:string"/>
+                <xs:element name="weboldal" type="xs:string"/>
+                <xs:element name="tulaj" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="raktarType">
+            <xs:sequence>
+                <xs:element name="cim" type="cimType"/>
+                <xs:element name="uzemelteto" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="cimType">
+            <xs:sequence>
+                <xs:element name="varos" type="xs:string"/>
+                <xs:element name="utca" type="xs:string"/>
+                <xs:element name="iranyitoszam" type="xs:integer"/>
+            </xs:sequence>
+        </xs:complexType>
+    <xs:complexType name="termekekType">
+        <xs:sequence>
+            <xs:element name="afa" type="xs:integer"/>
+            <xs:element name="tipus" type="xs:string"/>
+            <xs:element name="ar" type="xs:integer"/>
+            <xs:element name="kiadasiEv" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

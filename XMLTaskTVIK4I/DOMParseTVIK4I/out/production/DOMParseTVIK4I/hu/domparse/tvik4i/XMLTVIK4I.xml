@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rendeles>
+    <vasarlo id="SzISz" value="12345678">
+        <lakcim>
+            <utca>Pöttyös</utca>
+            <hazszam>69</hazszam>
+            <varos>Budapest</varos>
+            <iranyitoszam>1185</iranyitoszam>
+        </lakcim>
+        <bankszanlaSzam>123456789</bankszanlaSzam>
+        <nev>Akciós Áron</nev>
+    </vasarlo>
+    <onlineAruhaz id="OID" value="453id">
+        <nev>Online Bolt</nev>
+        <weboldal>onlinebolt.hu</weboldal>
+        <tulaj>Online Ferenc</tulaj>
+    </onlineAruhaz>
+    <raktar id="RID" value="463id">
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Eper</utca>
+            <iranyitoszam>3656</iranyitoszam>
+        </cim>
+        <uzemelteto>Üzemi Balázs</uzemelteto>
+    </raktar>
+    <termekek id="Cikkszam" value="298rt43">
+        <afa>27</afa>
+        <tipus>valamifele34</tipus>
+        <ar>5000</ar>
+        <kiadasiEv>2015</kiadasiEv>
+    </termekek>
+</rendeles>
