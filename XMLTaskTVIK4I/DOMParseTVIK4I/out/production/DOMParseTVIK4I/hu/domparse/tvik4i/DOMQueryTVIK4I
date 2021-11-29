@@ -1,9 +1,0 @@
-package hu.domparse.tvik4i;
-
-public class DOMQueryTVIK4I {
-
-    for $x in doc("C:\Users\Bence\Desktop\XML\XMLTaskTVIK4I\XMLTVIK4I.xml")/rendeles/vasarlo
-
-    return $x
-
-}
