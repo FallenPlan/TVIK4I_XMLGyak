@@ -1,0 +1,42 @@
+[
+  {
+    "@rsz": "ABC-100",
+    "tipus": "Fiat",
+    "ar": "220000",
+    "szin": "piros",
+    "tulaj": {
+      "nev": "Zoli",
+      "varos": "Eger"
+    }
+  },
+  {
+    "@rsz": "ABC-101",
+    "tipus": "Skoda",
+    "ar": "405000",
+    "szin": "fehér",
+    "tulaj": {
+      "nev": "Peti",
+      "varos": "Miskolc"
+    }
+  },
+  {
+    "@rsz": "ABC-102",
+    "tipus": "Opel",
+    "ar": "314100",
+    "szin": "szürke",
+    "tulaj": {
+      "nev": "Tomi",
+      "varos": "Miskolc"
+    }
+  },
+  {
+    "@rsz": "ABC-103",
+    "tipus": "Opel",
+    "ar": "220000",
+    "szin": "kék",
+    "tulaj": {
+      "nev": "Sanyi",
+      "varos": "Miskolc"
+    }
+  }
+]

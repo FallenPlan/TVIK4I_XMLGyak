@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Creating an Object from a JSON String</h2>
+
+<p id="demo"></p>
+
+<script>
+const txt = '{
+       "author": "Nyékyné Dr. Gaizler Judit",
+       "language": "Java 2 I-II. - Utikalaúz programozóknak 5.0"
+    },
+    {
+       "author": "Reiter István",
+       "language": "C# programozás lépésről lépésre"
+    }'
+const obj = JSON.parse(txt);
+document.getElementById("demo").innerHTML = obj.name + ", " + obj.age;
+</script>
+
+</body>
+</html>
