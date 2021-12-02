@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <rendeles>
-    <vasarlo id="SzISz" value="12345678">
+    <vasarlo SzISz="12345678">
         <lakcim>
             <utca>Pöttyös</utca>
             <hazszam>69</hazszam>
@@ -11,12 +11,32 @@
         <bankszanlaSzam>123456789</bankszanlaSzam>
         <nev>Akciós Áron</nev>
     </vasarlo>
-    <onlineAruhaz id="OID" value="453id">
+    <vasarlo SzISz="87654321">
+        <lakcim>
+            <utca>Akác</utca>
+            <hazszam>420</hazszam>
+            <varos>Miskolc</varos>
+            <iranyitoszam>3654</iranyitoszam>
+        </lakcim>
+        <bankszanlaSzam>987654321</bankszanlaSzam>
+        <nev>Dil Emma</nev>
+    </vasarlo>
+    <vasarlo SzISz="12443121">
+        <lakcim>
+            <utca>Ametiszt</utca>
+            <hazszam>84</hazszam>
+            <varos>Budapest</varos>
+            <iranyitoszam>1186</iranyitoszam>
+        </lakcim>
+        <bankszanlaSzam>739274832</bankszanlaSzam>
+        <nev>Resz Elek</nev>
+    </vasarlo>
+    <onlineAruhaz OID="453id" SzISz="12345678">
         <nev>Online Bolt</nev>
         <weboldal>onlinebolt.hu</weboldal>
         <tulaj>Online Ferenc</tulaj>
     </onlineAruhaz>
-    <raktar id="RID" value="463id">
+    <raktar RID="463id" SzISz="12345678">
         <cim>
             <varos>Miskolc</varos>
             <utca>Eper</utca>
@@ -24,10 +44,48 @@
         </cim>
         <uzemelteto>Üzemi Balázs</uzemelteto>
     </raktar>
-    <termekek id="Cikkszam" value="298rt43">
+    <onlineAruhaz OID="398id" SzISz="87654321">
+        <nev>Online Üzlet</nev>
+        <weboldal>onlineuzlet.hu</weboldal>
+        <tulaj>Online József</tulaj>
+    </onlineAruhaz>
+    <raktar RID="287id" SzISz="87654321">
+        <cim>
+            <varos>Budapest</varos>
+            <utca>Alma</utca>
+            <iranyitoszam>1421</iranyitoszam>
+        </cim>
+        <uzemelteto>Üzemi Tamás</uzemelteto>
+    </raktar>
+    <onlineAruhaz OID="837id" SzISz="12443121">
+        <nev>Online Kereskedés</nev>
+        <weboldal>onlinekereskedes.hu</weboldal>
+        <tulaj>Online József</tulaj>
+    </onlineAruhaz>
+    <raktar RID="280id" SzISz="12443121">
+        <cim>
+            <varos>Budapest</varos>
+            <utca>Körte</utca>
+            <iranyitoszam>1647</iranyitoszam>
+        </cim>
+        <uzemelteto>Üzemi Róbert</uzemelteto>
+    </raktar>
+    <termekek Cikkszam="298rt43" SzISz="12345678">
         <afa>27</afa>
         <tipus>valamifele34</tipus>
         <ar>5000</ar>
         <kiadasiEv>2015</kiadasiEv>
+    </termekek>
+    <termekek Cikkszam="436ju52" SzISz="87654321">
+        <afa>27</afa>
+        <tipus>masikfele87</tipus>
+        <ar>7000</ar>
+        <kiadasiEv>2014</kiadasiEv>
+    </termekek>
+    <termekek Cikkszam="938su28" SzISz="12443121">
+        <afa>27</afa>
+        <tipus>harmadikfele21</tipus>
+        <ar>15000</ar>
+        <kiadasiEv>2020</kiadasiEv>
     </termekek>
 </rendeles>

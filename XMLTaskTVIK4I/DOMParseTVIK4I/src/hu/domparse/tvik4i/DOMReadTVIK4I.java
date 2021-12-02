@@ -39,9 +39,9 @@ public class DOMReadTVIK4I {
                 String lakcim = node2.getTextContent();
                 Node node3 = element.getElementsByTagName("bankszanlaSzam").item(0);
                 String banksz = node3.getTextContent();
-                //Kiíras
-                System.out.println("Vásárló Szem. Igazolvány szám: " + SzISz);
-                System.out.println("Neve: " + nev);
+                //Kiírás
+                System.out.println("Vásárló neve: " + nev);
+                System.out.println("Vásárló szem. ig. száma: " + SzISz);
                 System.out.println("Lakcíme: " + lakcim);
                 System.out.println("Bankszámla száma: " + banksz + "\n");
                 //Metódus hívások
@@ -61,7 +61,7 @@ public class DOMReadTVIK4I {
             Node nNode = nodeList.item(i);
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                 Element element = (Element) nNode;
-                if (element.getAttribute("OID").toString().equals(OID)) {
+                if (element.getAttribute("OID").equals(OID)) {
                     Node node1 = element.getElementsByTagName("nev").item(0);
                     String nev = node1.getTextContent();
                     Node node2 = element.getElementsByTagName("weboldal").item(0);
@@ -82,13 +82,13 @@ public class DOMReadTVIK4I {
             Node nNode = nodeList.item(i);
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                 Element element = (Element) nNode;
-                if (element.getAttribute("SzISz").toString().equals(SzISz)) {
-                    String RID = element.getAttribute("RID");
+                if (element.getAttribute("SzISz").equals(SzISz)) {
+                    String rid = element.getAttribute("RID");
                     Node node1 = element.getElementsByTagName("uzemelteto").item(0);
                     String uzemelteto = node1.getTextContent();
                     Node node2 = element.getElementsByTagName("cim").item(0);
                     String cim = node2.getTextContent();
-                    System.out.println("Raktár ID: " + RID);
+                    System.out.println("Raktár id-je: " + rid);
                     System.out.println("Üzemeltető neve: " + uzemelteto);
                     System.out.println("Raktár címe: " + cim + "\n");
                 }
@@ -102,8 +102,8 @@ public class DOMReadTVIK4I {
             Node nNode = nodeList.item(i);
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                 Element element = (Element) nNode;
-                if (element.getAttribute("SzISz").toString().equals(SzISz)) {
-                    String cikkszam = element.getAttribute("cikkszam");
+                if (element.getAttribute("SzISz").equals(SzISz)) {
+                    String cikkszam = element.getAttribute("Cikkszam");
                     Node node1 = element.getElementsByTagName("afa").item(0);
                     String afa = node1.getTextContent();
                     Node node2 = element.getElementsByTagName("tipus").item(0);
@@ -112,7 +112,7 @@ public class DOMReadTVIK4I {
                     String ar = node3.getTextContent();
                     Node node4 = element.getElementsByTagName("kiadasiEv").item(0);
                     String kiadasiEv = node4.getTextContent();
-                    System.out.println("Termek cikkszáma: " + cikkszam);
+                    System.out.println("Termék cikkszáma: " + cikkszam);
                     System.out.println("Termék áfája: " + afa);
                     System.out.println("Termék tipusa: " + tipus);
                     System.out.println("Termék ára: " + ar);
