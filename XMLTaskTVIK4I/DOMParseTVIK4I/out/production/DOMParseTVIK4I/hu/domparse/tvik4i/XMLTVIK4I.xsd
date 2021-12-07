@@ -16,6 +16,16 @@
                 <xs:element name="lakcim" type="lakcimType"/>
                 <xs:element name="bankszanlaSzam" type="xs:integer"/>
                 <xs:element name="nev" type="xs:string"/>
+                <xs:element name="key">
+                    <xs:key name="aKey">
+                        <xs:selector xpath="vasarloType" />
+                        <xs:field xpath="@id" />
+                    </xs:key>
+                    <xs:keyref name="aKeyRef" refer="aKey">
+                        <xs:selector xpath="vasarlo" />
+                        <xs:field xpath="@id" />
+                    </xs:keyref>
+                </xs:element>
             </xs:sequence>
             <xs:attribute type="xs:string" name="id"/>
         </xs:complexType>

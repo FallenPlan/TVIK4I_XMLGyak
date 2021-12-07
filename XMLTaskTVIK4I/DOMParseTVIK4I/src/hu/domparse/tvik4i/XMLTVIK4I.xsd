@@ -8,6 +8,40 @@
                 <xs:element name="onlineAruhaz" type="onlineAruhazType"/>
                 <xs:element name="raktar" type="raktarType"/>
                 <xs:element name="termekek" type="termekekType"/>
+                <xs:element name="keys">
+                    <xs:key name="SzISz">
+                        <xs:selector xpath="vasarloType" />
+                        <xs:field xpath="SzISz" />
+                    </xs:key>
+                    <xs:keyref name="SzISzRef" refer="SzISz">
+                        <xs:selector xpath="onlineAruhazType" />
+                        <xs:field xpath="OID" />
+                    </xs:keyref>
+                    <xs:key name="OID">
+                        <xs:selector xpath="onlineAruhazType" />
+                        <xs:field xpath="OID" />
+                    </xs:key>
+                    <xs:keyref name="OIDRef" refer="OID">
+                        <xs:selector xpath="vasarloType" />
+                        <xs:field xpath="SzISz" />
+                    </xs:keyref>
+                    <xs:key name="RID">
+                        <xs:selector xpath="raktarType" />
+                        <xs:field xpath="RID" />
+                    </xs:key>
+                    <xs:keyref name="RIDRef" refer="RID">
+                        <xs:selector xpath="onlineAruhazType" />
+                        <xs:field xpath="OID" />
+                    </xs:keyref>
+                    <xs:key name="Cikkszam">
+                        <xs:selector xpath="termekekType" />
+                        <xs:field xpath="Cikkszam" />
+                    </xs:key>
+                    <xs:keyref name="CikkszamRef" refer="Cikkszam">
+                        <xs:selector xpath="raktarType" />
+                        <xs:field xpath="RID" />
+                    </xs:keyref>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
